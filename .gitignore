@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# =========================
+# TouchDesigner
+# =========================
+
+# Autosaves / backups / temporary files
+*.toe.autosave
+*.toe.backup
+*.tmp
+*.temp
+
+# Generated output
+output/
+renders/
+cache/
+temp/
+
+
+# =========================
+# Local media
+# =========================
+
+# Audio/video files used only for testing
+media/
